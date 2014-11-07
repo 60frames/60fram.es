@@ -1,0 +1,25 @@
+{
+  "name": "60fram.es",
+  "version": "0.0.0",
+  "description": "60fram.es website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/60frames/60fram.es.git"
+  },
+  "author": "Matt Derrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/60frames/60fram.es/issues"
+  },
+  "homepage": "https://github.com/60frames/60fram.es",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "consolidate": "^0.10.0",
+    "express": "^4.10.1",
+    "underscore": "^1.7.0"
+  }
+}
