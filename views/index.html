@@ -47,8 +47,6 @@
             font-family: arial, helvetica, clean, sans-serif;
             font-size: 16px;
             color: #5C5C5C;
-            width: 90%;
-            margin: 0 auto;
         }
 
         a,
@@ -67,10 +65,17 @@
             color: #04368A;
         }
 
+        .browserupgrade {
+            padding: 20px;
+            background: #f2f2f2;
+            text-align: center;
+        }
+
         .root {
             position: absolute;
             top: 50%;
             left: 50%;
+            -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             width: 90%;
         }
@@ -109,6 +114,9 @@
     </style>
 </head>
 <body>
+    <!--[if lte IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
     <div class="root">
         <h1 class="logo">
             <span class="logo__content">
